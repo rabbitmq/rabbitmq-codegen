@@ -465,7 +465,7 @@
                 },
                 {
                     "accepted-by": [
-                        "client",
+                        "client"
                     ],
                     "id": 11,
                     "name": "request-ok",
@@ -622,7 +622,7 @@
                 },
                 {
                     "accepted-by": [
-                        "client",
+                        "client"
                     ],
                     "id": 31,
                     "name": "bind-ok",
@@ -668,7 +668,7 @@
                 },
                 {
                     "accepted-by": [
-                        "client",
+                        "client"
                     ],
                     "id": 51,
                     "name": "unbind-ok",
