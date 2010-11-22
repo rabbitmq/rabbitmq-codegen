@@ -230,6 +230,10 @@ class AmqpMethod(AmqpEntity):
             self.hasContent = self.element['content']
         else:
             self.hasContent = False
+        if self.element.has_key('accepted-by'):
+            self.acceptedBy = self.element['accepted-by']
+        else:
+            self.acceptedBy = []
         self.arguments = []
 
         index = 0
