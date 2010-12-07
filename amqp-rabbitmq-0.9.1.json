@@ -451,7 +451,7 @@
             "id": 85,
             "methods": [{"id": 10,
                          "arguments": [
-                             {"type": "bit", "name": "multiple", "default-value": false},
+                             {"type": "longlong", "name": "batch_duration", "default-value": 0},
                              {"type": "bit", "name": "nowait", "default-value": false}],
                          "name": "select",
                          "synchronous": true},
